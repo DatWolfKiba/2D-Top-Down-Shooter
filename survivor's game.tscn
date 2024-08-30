@@ -40,3 +40,9 @@ position = Vector2(-65, -331)
 
 [node name="mob" parent="." instance=ExtResource("3_asolf")]
 position = Vector2(-551, -20)
+
+[node name="mob2" parent="." instance=ExtResource("3_asolf")]
+position = Vector2(7, 399)
+
+[node name="mob3" parent="." instance=ExtResource("3_asolf")]
+position = Vector2(545, 204)

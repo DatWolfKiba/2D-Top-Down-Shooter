@@ -23,5 +23,12 @@ position = Vector2(100, 2)
 texture = ExtResource("1_3yyht")
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol"]
+unique_name_in_owner = true
 position = Vector2(25, -9)
 script = ExtResource("3_8nhfe")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
